@@ -1,11 +1,11 @@
 #!/bin/bash -x
 
-echo "welcome to Regex Patterns Email Verification"
+echo "Validing the mandatory second part"
 
-##UserCase1
+##UserCase2
 read -p "Enter Email address " Email
 
-EmailPattern="[a-zA-Z0-9]+"
+EmailPattern="^[a-zA-Z0-9]+@[a-zA-Z]+"
 
 if [[ $Email =~ $EmailPattern ]]
 then
