@@ -1,7 +1,5 @@
 #!/bin/bash -x
 
-echo "Validing the mandatory second part"
-
 ##UserCase3
 read -p "Enter Email address " Email
 
